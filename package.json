@@ -1,0 +1,33 @@
+{
+  "name": "wuhao-work-design-patterns",
+  "version": "1.0.0",
+  "description": "工作中运用到的设计模式",
+  "main": "index.js",
+  "dependencies": {
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.19",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "npx tsc -w",
+    "lint": "npx tslint --project tslint.json",
+    "start": "node dist/index.js",
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuhaohao1234/wuhao-work-design-patterns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wuhaohao1234/wuhao-work-design-patterns/issues"
+  },
+  "homepage": "https://github.com/wuhaohao1234/wuhao-work-design-patterns#readme"
+}
