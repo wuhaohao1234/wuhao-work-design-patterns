@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1571561043916" clover="3.2.0">
-  <project timestamp="1571561043916" name="All files">
-    <metrics statements="17" coveredstatements="16" conditionals="4" coveredconditionals="2" methods="8" coveredmethods="8" elements="29" coveredelements="26" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1"/>
-    <file name="index.ts" path="E:\wu-hao-work\wuhao-work-design-patterns\src\index.ts">
-      <metrics statements="17" coveredstatements="16" conditionals="4" coveredconditionals="2" methods="8" coveredmethods="8"/>
+<coverage generated="1577617544376" clover="3.2.0">
+  <project timestamp="1577617544377" name="All files">
+    <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1" elements="17" coveredelements="17" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
+    <file name="index.ts" path="/home/abu0418/Desktop/wuhao-work-design-patterns/src/index.ts">
+      <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="4" type="cond" truecount="4" falsecount="0"/>
       <line num="3" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="11" count="3" type="stmt"/>
-      <line num="12" count="3" type="stmt"/>
-      <line num="13" count="3" type="stmt"/>
-      <line num="15" count="3" type="stmt"/>
-      <line num="22" count="1" type="stmt"/>
-      <line num="23" count="1" type="stmt"/>
-      <line num="29" count="1" type="stmt"/>
-      <line num="37" count="1" type="cond" truecount="1" falsecount="1"/>
-      <line num="38" count="1" type="stmt"/>
-      <line num="40" count="1" type="stmt"/>
-      <line num="47" count="1" type="cond" truecount="1" falsecount="1"/>
-      <line num="48" count="0" type="stmt"/>
-      <line num="50" count="1" type="stmt"/>
-      <line num="51" count="2" type="stmt"/>
-      <line num="53" count="1" type="stmt"/>
+      <line num="5" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="8" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

@@ -1,45 +1,18 @@
-import Observer from '../src/index'
-
-const observer = new Observer()
-
-describe('Observer的方法', () => {
-    test('add异步方法测试', () => {
-        const inputOne = () => {
-            console.log(1)
-        }
-        observer.add(inputOne).then((result) => {
-            expect(result).toBe(inputOne)
-        })
+import fizzBuzz from '../src/index'
+describe('FizzBuzz', () => {
+    test('fizzBuzz函数存在', () => {
+        expect(fizzBuzz).toBe(fizzBuzz)
     })
-    test('清空', () => {
-        observer.empty().then((result) => {
-            expect(result).toBe([])
-        })
+    test('输入１等于１', () => {
+        expect(fizzBuzz(1)).toBe(1)
     })
-    test('获取所有监听的函数', () => {
-        expect(observer.getObserverList()).toEqual([])
+    test('输入３等于fizz', () => {
+        expect(fizzBuzz(3)).toBe('fizz')
     })
-    test('添加函数', () => {
-        const inputOne = () => {
-            console.log(1)
-        }
-        const inputTwo = () => {
-            console.log(2)
-        }
-        observer.add(inputOne).then((result) => {
-            observer.add(inputTwo).then((resulted) => {
-                resulted.forEach((itemCallback, key) => {
-                    expect(resulted[key]).toBe(itemCallback)
-                })
-            })
-        })
+    test('输入5等于Buzz', () => {
+        expect(fizzBuzz(5)).toBe('Buzz')
     })
-    test('去除一个', () => {
-        observer.spliceObserver(0).then((result) => {
-            expect(result.length).toBe(1)
-        })
-    })
-    test('执行', () => {
-        observer.upDate()
+    test('输入15等于fizzBuzz', () => {
+        expect(fizzBuzz(15)).toBe('fizzBuzz')
     })
 })
